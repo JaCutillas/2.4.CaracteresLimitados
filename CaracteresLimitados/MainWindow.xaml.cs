@@ -41,7 +41,8 @@ namespace CaracteresLimitados
 
         private void DarEnhorabuena()
         {
-            MensajeTextBlock.Text = "";
+            MensajeTextBlock.Text = "MUCHO TEXTO";
+            ThumbImage.Opacity = 1;
         }
     }
 }

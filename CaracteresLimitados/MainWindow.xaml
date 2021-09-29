@@ -43,14 +43,25 @@
                    VerticalAlignment="Top"
                    FontSize="17"
                    FontFamily="Miriam Mono CLM BoldOblique" />
-        
+
         <TextBlock x:Name="MensajeTextBlock"
-                   HorizontalAlignment="Center"
-                   Margin="354,382,0,0"
+                   HorizontalAlignment="Left"
+                   Margin="495,0,0,13"
                    TextWrapping="Wrap"
                    Text=""
-                   VerticalAlignment="Top"
+                   VerticalAlignment="Bottom"
                    FontSize="17"
-                   FontFamily="Miriam Mono CLM BoldOblique" />
+                   FontFamily="Miriam Mono CLM BoldOblique"
+                   Width="137"
+                   Height="33" />
+
+        <Image x:Name="ThumbImage"
+               HorizontalAlignment="Left"
+               Height="33"
+               Margin="653,372,0,0"
+               VerticalAlignment="Top"
+               Width="40"
+               Source="assets/muyBien.jpg"
+               Opacity="0"/>
     </Grid>
 </Window>
