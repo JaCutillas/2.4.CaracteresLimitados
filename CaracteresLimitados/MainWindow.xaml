@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CaracteresLimitados"
         mc:Ignorable="d"
-        Title="MainWindow"
+        Title="Contador de caracteres"
         Height="450"
-        Width="800">
+        Width="800"
+        Icon="assets/muchoTexto.ico">
 
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1"
@@ -46,7 +47,7 @@
 
         <TextBlock x:Name="MensajeTextBlock"
                    HorizontalAlignment="Left"
-                   Margin="495,0,0,13"
+                   Margin="497,0,0,3"
                    TextWrapping="Wrap"
                    Text=""
                    VerticalAlignment="Bottom"
