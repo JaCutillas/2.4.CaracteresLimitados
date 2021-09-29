@@ -1,0 +1,56 @@
+﻿<Window x:Class="CaracteresLimitados.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaracteresLimitados"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1"
+                             MappingMode="RelativeToBoundingBox"
+                             StartPoint="0.5,0">
+            <GradientStop Color="#FFF5FAE8" />
+            <GradientStop Color="#FFDAB5CC"
+                          Offset="1" />
+            <GradientStop Color="#FFEEDDE8"
+                          Offset="0.81" />
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid>
+        <TextBox x:Name="PrincipalTextBox"
+                 HorizontalAlignment="Left"
+                 Height="317"
+                 Margin="77,43,0,0"
+                 TextWrapping="Wrap"
+                 Text=""
+                 VerticalAlignment="Top"
+                 Width="644"
+                 AcceptsReturn="True"
+                 TextChanged="TextoActualizadoPrincipalTextBox"
+                 FontFamily="Miriam Mono CLM"
+                 FontSize="34" />
+
+        <TextBlock x:Name="ContadorTextBlock"
+                   HorizontalAlignment="Right"
+                   Margin="0,377,39,0"
+                   TextWrapping="Wrap"
+                   Text="0/140"
+                   VerticalAlignment="Top"
+                   FontSize="17"
+                   FontFamily="Miriam Mono CLM BoldOblique" />
+        
+        <TextBlock x:Name="MensajeTextBlock"
+                   HorizontalAlignment="Center"
+                   Margin="354,382,0,0"
+                   TextWrapping="Wrap"
+                   Text=""
+                   VerticalAlignment="Top"
+                   FontSize="17"
+                   FontFamily="Miriam Mono CLM BoldOblique" />
+    </Grid>
+</Window>
