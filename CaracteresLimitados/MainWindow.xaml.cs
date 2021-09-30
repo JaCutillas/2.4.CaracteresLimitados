@@ -28,7 +28,7 @@ namespace CaracteresLimitados
         private void TextoActualizadoPrincipalTextBox(Object sender, TextChangedEventArgs args)
 
         {
-            int numeroCaracteres = PrincipalTextBox.Text.ToCharArray().Length;
+            int numeroCaracteres = PrincipalTextBox.Text.Length;
 
             if (numeroCaracteres >= 140) 
             {
